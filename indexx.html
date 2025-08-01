@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>User Data Form</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body style="background-color: #f0f8ff; font-family: 'Roboto', sans-serif; margin: 0; padding: 0;">
+    <center>
+        <h2 style="color:#2c3e50; margin-top: 40px;">User Information Form</h2>
+        <form>
+            <table border="0" cellpadding="10" bgcolor="#ffffff" style="border-radius: 10px; box-shadow: 0px 4px 12px rgba(0,0,0,0.1); width: 400px; font-size: 16px;">
+                <tr>
+                    <td><b>First Name:</b></td>
+                    <td><input type="text" name="fname" placeholder="First Name" required style="width: 100%; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td><b>Middle Name:</b></td>
+                    <td><input type="text" name="mname" placeholder="Middle Name" required style="width: 100%; padding: 5px;"></td>
+                </tr>
+               
+                <tr>
+                    <td><b>Last Name:</b></td>
+                    <td><input type="text" name="lname" placeholder="Last Name" required style="width: 100%; padding: 5px;"></td>
+                </tr>
+                 <td><b>Date of Birth:</b></td>
+                    <td><input type="date" name="date" placeholder="date" required style="width: 100%; padding: 5px;"></td>
+                <tr>
+                    <td><b>Gender:</b></td>
+                    <td>
+                        <label><input type="radio" name="gender" value="Male" required> Male</label><br>
+                        <label><input type="radio" name="gender" value="Female"> Female</label><br>
+                        <label><input type="radio" name="gender" value="Other"> Other</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Interests:</b></td>
+                    <td>
+                        <label><input type="checkbox" name="interests" value="Sports"> Sports</label><br>
+                        <label><input type="checkbox" name="interests" value="Music"> Music</label><br>
+                        <label><input type="checkbox" name="interests" value="Technology"> Technology</label><br>
+                        <label><input type="checkbox" name="interests" value="Art"> Art</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><b>Email:</b></td>
+                    <td><input type="text" name="email" placeholder="abc@example.com" required style="width: 100%; padding: 5px;"></td>
+                </tr>
+                <tr>
+                    <td colspan="2" align="center" style="padding-top: 10px;">
+                        <input type="submit" value="Submit" style="padding: 8px 16px; background-color: #2c3e50; color: #ffffff; border: none; border-radius: 5px; cursor: pointer;">
+                        <input type="reset" value="Reset" style="padding: 8px 16px; background-color: #bdc3c7; color: #ffffff; border: none; border-radius: 5px; cursor: pointer; margin-left: 10px;">
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+    <a href="index.html" style="font-family: Arial, sans-serif; font-weight: bold; font-size: 18px; text-decoration: none; color: #333;">
+  Go to Website!
+</a>
+
+
+</body>
+</html>
